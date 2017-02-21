@@ -63,4 +63,3 @@ Configuration parameters can be set using either a JSON config file, named `conf
 | `webhookSecret`      | `GITHUB_WEBHOOK_SECRET` | Secret to decode webhook requests with   | —             |
 | `pullRequest.branch` | `PR_BRANCH`             | Name of the branch to watch for PRs      | master        |
 | `buildpack`          | `BUILDPACK_URL`         | URL of the Heroku buildpack to use       | —             |
-  ```
