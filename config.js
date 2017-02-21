@@ -30,7 +30,8 @@ const schema = {
   webhookEndpoint: {
     doc: 'Endpoint used to handle webhook requests',
     format: String,
-    default: '/webhook'
+    default: '/webhook',
+    env: 'WEBHOOK_ENDPOINT'
   },
   webhookSecret: {
     doc: 'Secret to decode webhook requests with',
@@ -42,13 +43,15 @@ const schema = {
     branch: {
       doc: 'Name of the branch to watch for PRs',
       format: String,
-      default: 'master'
+      default: 'master',
+      env: 'PR_BRANCH'
     }
   },
   buildpack: {
     doc: 'URL of the Heroku buildpack to use',
     format: String,
-    default: null
+    default: null,
+    env: 'BUILDPACK_URL'
   }
 }
 
