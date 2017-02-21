@@ -2,7 +2,7 @@
 
 # Haiku
 
-> *Instant Heroku deploys from GitHub branches*
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Haiku is a small Node.js app that watches a branch on your GitHub repository and deploys every new pull request to a [Heroku](https://heroku.com) application. The resulting URL will give you a snapshot of your project as per the contents of the pull request, which you can use to test or to share with colleagues/clients before rolling out to production.
 
