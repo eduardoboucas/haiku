@@ -1,0 +1,11 @@
+{
+  "name": "Haiku CI",
+  "description": "Instant Heroku deploys from GitHub branches",
+  "keywords": [
+    "heroku",
+    "github",
+    "ci"
+  ],
+  "logo": "https://raw.githubusercontent.com/eduardoboucas/haiku/master/logo.png",
+  "image": "heroku/node"
+}
