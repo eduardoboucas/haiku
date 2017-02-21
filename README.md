@@ -4,11 +4,11 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Haiku is a small Node.js app that watches a branch on your GitHub repository and deploys every new pull request to a [Heroku](https://heroku.com) application. The resulting URL will give you a snapshot of your project as per the contents of the pull request, which you can use to test or to share with colleagues/clients before rolling out to production.
+Haiku is a small Node.js app that watches a branch on your GitHub repository and deploys every pull request to a new [Heroku](https://heroku.com) application. You will get a URL that represents a snapshot of the state of your project as per the contents of the pull request, useful to test or to share features with colleagues/clients before rolling out to production.
 
 ## How it works
 
-1. When a new pull request is created to the branch being watched, a new Heroku app is created programatically and it's built using the state of the branch being merged
+1. When a new pull request is created, a new Heroku app is created programatically and it's built using the state of the branch being merged
 
 1. The URL of the app will be added to the pull request once it finishes building
 
