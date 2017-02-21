@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Instant Heroku deploys from GitHub",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "convict": "^2.0.0",
+    "github": "^9.0.0",
+    "github-webhook-handler": "^0.6.0",
+    "heroku-client": "^3.0.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
