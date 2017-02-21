@@ -1,0 +1,25 @@
+{
+  "name": "heroku-ci",
+  "version": "1.0.0",
+  "description": "Instant Heroku deploys from GitHub",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoboucas/haiku.git"
+  },
+  "keywords": [
+    "heroku",
+    "ci"
+  ],
+  "author": "Eduardo Boucas (mail@eduardoboucas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoboucas/haiku/issues"
+  },
+  "homepage": "https://github.com/eduardoboucas/haiku#readme"
+}
