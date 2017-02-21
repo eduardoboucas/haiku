@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/4162329/23179689/ad201094-f866-11e6-9682-f2401f70f05f.png" width="120">
+<img src="https://raw.githubusercontent.com/eduardoboucas/haiku/master/logo.png" width="120">
 
 # Haiku
 
