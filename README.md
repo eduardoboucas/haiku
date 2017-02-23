@@ -6,6 +6,10 @@
 
 Haiku is a small Node.js app that watches a branch on your GitHub repository and deploys every pull request to a new [Heroku](https://heroku.com) application. You will get a URL that represents a snapshot of the state of your project as per the contents of the pull request, useful to test or to share features with colleagues/clients before rolling out to production.
 
+## Screencast
+
+https://www.youtube.com/watch?v=8OpbVUqkqec
+
 ## How it works
 
 1. When a new pull request is created, a new Heroku app is created programatically and it's built using the state of the branch being merged
