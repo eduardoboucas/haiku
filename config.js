@@ -30,7 +30,7 @@ const schema = {
   webhookEndpoint: {
     doc: 'Endpoint used to handle webhook requests',
     format: String,
-    default: '/webhook',
+    default: '/',
     env: 'WEBHOOK_ENDPOINT'
   },
   webhookSecret: {
